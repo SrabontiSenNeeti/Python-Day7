@@ -335,3 +335,18 @@ if (number % 2) == 0:
   print("The number is even")
 else:
   print("The number is odd")
+  
+#or
+num = int(input("Enter a number: "))
+if (num % 2) > 0:
+    print("This is an odd number.")
+else:
+    print("This is an even number.")
+
+    
+#negative positive
+number = int(input("Enter a number: "))
+if number > 0:
+    print("This is an positive number.")
+else:
+    print("This is an Negative number.")
